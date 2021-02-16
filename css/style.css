@@ -24,7 +24,18 @@ body {
     background-color: rgba(0,0,0,0.2);
 }
 
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col {
+    float:left;
+}
+
 /* test */
+per vedere se posso usarla come classe comune per il margine sopra
 .spacing {
     margin: 10px 0;}
 
@@ -39,7 +50,28 @@ header {
     background-position: 112% 110%;
 }
 
-.logo img{
+/* logo */
+.logo {
+    width:18%;
+}
+
+.logo img {
     width: auto;
     height:50px;
+}
+
+/* navigation link container */
+
+ul {
+    list-style-type: none;    
+}
+
+.central li {
+    display: inline-block;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
 }
