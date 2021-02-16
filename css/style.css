@@ -18,10 +18,7 @@ body {
 
 .container {
     width:1024px;
-    margin:auto;
-
-    /* test */
-    background-color: rgba(0,0,0,0.2);
+    margin:auto;    
 }
 
 .clearfix::after {
@@ -34,8 +31,24 @@ body {
     float:left;
 }
 
+ul {
+    list-style-type: none;    
+}
+
+.col li {
+    display: inline-block;
+    margin-left: 18px;
+
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    font-size: 10px;    
+}
+
 /* test */
-per vedere se posso usarla come classe comune per il margine sopra
+/* per vedere se posso usarla come classe comune per il margine sopra */
 .spacing {
     margin: 10px 0;}
 
@@ -60,18 +73,34 @@ header {
     height:50px;
 }
 
-/* navigation link container */
+/* col central navigation link container */
 
-ul {
-    list-style-type: none;    
+.central {
+    width: 40%;
+}
+/* col right login container */
+
+.central,
+.right {
+    line-height: 80px;
 }
 
-.central li {
-    display: inline-block;
+.right {
+    float: right;
+    width: 35%;
+    text-align: right;
 }
 
-li a {
-    color: white;
-    text-decoration: none;
-    font-size: 14px;
+.noback-button {
+    border: 1px solid white;
+    border-radius: 5px;    
+    padding: 8px 30px;
 }
+
+.green-button {    
+    background-color: #00FF00;
+    border-radius: 5px;
+    padding:8px 5px;
+}
+
+
