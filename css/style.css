@@ -5,11 +5,28 @@
     box-sizing: border-box;
 }
 
+img {
+    width:100%;
+    display: block;
+}
+
 
 /* COMMON PARTS */
 body {
     font-family: 'Roboto', sans-serif;   
 }
+
+.container {
+    width:1024px;
+    margin:auto;
+
+    /* test */
+    background-color: rgba(0,0,0,0.2);
+}
+
+/* test */
+.spacing {
+    margin: 10px 0;}
 
 
 /* HEADER */
@@ -20,4 +37,9 @@ header {
     background-size: 900px;
     background-repeat: no-repeat;
     background-position: 112% 110%;
+}
+
+.logo img{
+    width: auto;
+    height:50px;
 }
