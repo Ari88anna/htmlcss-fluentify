@@ -50,7 +50,7 @@ a {
 /* test */
 /* per vedere se posso usarla come classe comune per il margine sopra */
 .spacing {
-    margin: 10px 0;}
+    padding: 30px 0;}
 
 
 /* HEADER */
@@ -119,6 +119,20 @@ h1 {
     margin-top: 20px;
     width: 30%;
     padding:20px;
+}
+
+/* MAIN */
+
+.grey-container {
+    background-color: lightgrey;
+    height: 150px;
+    text-align: center;    
+}
+
+.grey-text{
+    color: grey;
+    
+    
 }
 
 
