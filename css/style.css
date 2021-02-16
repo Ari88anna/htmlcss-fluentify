@@ -123,17 +123,39 @@ h1 {
 
 /* MAIN */
 
+/* green container */
+
 .grey-container {
     background-color: lightgrey;
     height: 150px;
     text-align: center;    
 }
 
-.grey-text{
-    color: grey;
-    
-    
+.grey-text {
+    color: grey;    
 }
+
+/* main information container */
+.main-information {
+    margin:30px 0;
+}
+
+
+/* test */
+.training {
+    width:30%;         
+}
+
+.training img{
+    height: 200px;
+    margin: auto;   
+}
+
+.tutor{
+    margin:0 5%;
+}
+
+
 
 
 
