@@ -41,7 +41,7 @@ ul {
 
 }
 
-li a {
+a {
     color: white;
     text-decoration: none;
     font-size: 10px;    
@@ -102,5 +102,26 @@ header {
     border-radius: 5px;
     padding:8px 5px;
 }
+
+/* text container */
+
+.text-container {
+    margin-top: 130px;
+    width:50%;
+}
+
+h1 {
+    color: white;
+}
+
+.text-container a{
+    display: block;
+    margin-top: 20px;
+    width: 30%;
+    padding:20px;
+}
+
+
+
 
 
